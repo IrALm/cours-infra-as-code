@@ -5,7 +5,7 @@ verifiees dans cet environnement.
 
 ---
 
-### 🟢 Lancez un conteneur docker se basant sur l'image *nginx* et accedez a sa page d'accueil via un navigateur web. (+1 etoile)
+### 1. Lancez un conteneur docker se basant sur l'image *nginx* et accedez a sa page d'accueil via un navigateur web. (+1 etoile)
 
 **Reponse :**
 
@@ -19,7 +19,7 @@ accessible depuis un navigateur a l'adresse http://localhost:8080.
 
 ---
 
-### 🟢 Lancez un conteneur de facon non bloquante, vous allez devoir detacher votre conteneur en arriere plan. (+1 etoile)
+### 2. Lancez un conteneur de facon non bloquante, vous allez devoir detacher votre conteneur en arriere plan. (+1 etoile)
 
 **Reponse :**
 
@@ -34,7 +34,7 @@ du conteneur. `docker ps` confirme qu'il tourne toujours.
 
 ---
 
-### 🟢 Remplacez une portion d'arborescence du conteneur par un emplacement hote afin d'ajouter une page html. (+2 etoiles)
+### 3. Remplacez une portion d'arborescence du conteneur par un emplacement hote afin d'ajouter une page html. (+2 etoiles)
 
 **Reponse :**
 
@@ -59,7 +59,7 @@ La reponse renvoie le contenu de `html/index.html` et non plus la page
 
 ---
 
-### 🟠 Lancez un deuxieme conteneur se basant egalement sur votre fichier html et modifiez-le depuis l'emplacement hote. (+1 etoile)
+### 4.  Lancez un deuxieme conteneur se basant egalement sur votre fichier html et modifiez-le depuis l'emplacement hote. (+1 etoile)
 
 **Reponse :**
 
@@ -77,7 +77,7 @@ repertoire hote, il n'y a pas de copie de fichier dans l'image.
 
 ---
 
-### Supervisez votre conteneur web afin d'afficher les logs sur la console. (+1 etoile)
+### 5. Supervisez votre conteneur web afin d'afficher les logs sur la console. (+1 etoile)
 
 **Reponse :**
 
@@ -93,8 +93,3 @@ conteneur (ex. `curl http://localhost:8081`) apparait en temps reel.
 
 ---
 
-## Nettoyage
-
-```bash
-docker rm -f nginx-basic nginx-custom nginx-custom2
-```
