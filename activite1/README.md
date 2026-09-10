@@ -1,4 +1,4 @@
-# Activité 1 - MongoDB dans Docker
+# Activité 1 - Dockerfile
 
 ## Partie 1 - Conteneur manuel
 
